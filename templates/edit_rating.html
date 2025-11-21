@@ -1,0 +1,10 @@
+<h3>Edit Rating</h3>
+<form method="POST">
+    {{ form.hidden_tag() }}
+    <p>{{ form.hidden_tag() }}</p>
+    <p>{{ form.name.label }} {{ form.name() }}</p>
+    <p>{{ form.movieList.label }} {{ form.movieList() }}</p>
+    <p>{{ form.stars.label }} {{ form.stars() }}</p>
+    <p>{{ form.remarks.label }} {{form.remarks() }}</p>
+    <p><input type="submit" value="Update Rating"></p>
+</form>
